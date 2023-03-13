@@ -14,5 +14,6 @@
     },
     "mutators": {
         "@default": true
-    }
+    },
+    "bootstrap":"./test/bootstrap.php"
 }

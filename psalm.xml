@@ -24,6 +24,7 @@
   cacheDirectory=".cache/psalm"
   findUnusedBaselineEntry="true"
   findUnusedCode="true"
+  autoloader="./test/bootstrap.php"
 >
     <projectFiles>
         <directory name="src"/>
