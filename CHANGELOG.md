@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.1](https://github.com/codenamephp/deployer.secrets/tree/1.0.1) (2023-03-13)
+## [1.0.1](https://github.com/codenamephp/deployer.secrets/tree/1.0.1) (2023-05-19)
 
 [Full Changelog](https://github.com/codenamephp/deployer.secrets/compare/1.0.0...1.0.1)
 
