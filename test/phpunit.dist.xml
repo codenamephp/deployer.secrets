@@ -14,17 +14,8 @@
   ~   See the License for the specific language governing permissions and
   ~   limitations under the License.
   -->
-<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
-         colors="true"
-         bootstrap="./bootstrap.php"
-         cacheDirectory="../.cache/phpunit"
->
-  <coverage>
-    <include>
-      <directory suffix=".php">./../src</directory>
-    </include>
-  </coverage>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.1/phpunit.xsd" colors="true" bootstrap="./bootstrap.php" cacheDirectory="../.cache/phpunit">
+  <coverage/>
   <testsuites>
     <testsuite name="all">
       <directory>.</directory>
@@ -33,4 +24,9 @@
   <php>
     <ini name="date.timezone" value="Europe/Berlin"/>
   </php>
+  <source>
+    <include>
+      <directory>./../src</directory>
+    </include>
+  </source>
 </phpunit>

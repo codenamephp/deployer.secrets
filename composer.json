@@ -36,12 +36,13 @@
     "phpunit": "tools/phpunit.phar -c test/phpunit.dist.xml test/",
     "psalm": "tools/psalm --threads=10 --long-progress",
     "composer-unused": "tools/composer-unused --no-progress --no-interaction",
-    "composer-require-checker": "tools/composer-require-checker --no-interaction",
+    "composer-require-checker": "tools/composer-require-checker --no-interaction --config-file=$(pwd)/composer-require-checker.json",
     "infection": "XDEBUG_MODE=coverage tools/infection --min-msi=100 --min-covered-msi=100 --threads=4 --no-progress --show-mutations",
     "ci-all": [
       "@phpunit",
       "@psalm",
       "@composer-unused",
+      "@composer-require-checker",
       "@infection"
     ]
   },
