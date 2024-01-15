@@ -1,8 +1,12 @@
 # Changelog
 
-## [1.0.1](https://github.com/codenamephp/deployer.secrets/tree/1.0.1) (2023-05-19)
+## [1.1.0](https://github.com/codenamephp/deployer.secrets/tree/1.1.0) (2024-01-15)
 
-[Full Changelog](https://github.com/codenamephp/deployer.secrets/compare/1.0.0...1.0.1)
+[Full Changelog](https://github.com/codenamephp/deployer.secrets/compare/1.0.0...1.1.0)
+
+**Implemented enhancements:**
+
+- Bump webdevops/php-dev from 8.2 to 8.3 in /docker/application [\#3](https://github.com/codenamephp/deployer.secrets/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 **Merged pull requests:**
 
