@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8.1",
+    "php": "^8.2",
     "codenamephp/deployer.base": "^3.0",
     "codenamephp/platform.secretsmanager.base": "^1.0.1",
     "deployer/deployer": "^7.2"
