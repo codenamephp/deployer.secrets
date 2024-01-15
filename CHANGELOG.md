@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/codenamephp/deployer.secrets/tree/2.0.0) (2024-01-15)
+
+[Full Changelog](https://github.com/codenamephp/deployer.secrets/compare/1.1.0...2.0.0)
+
+**Merged pull requests:**
+
+- Drop PHP8.1 [\#4](https://github.com/codenamephp/deployer.secrets/pull/4) ([bastianschwarz](https://github.com/bastianschwarz))
+
 ## [1.1.0](https://github.com/codenamephp/deployer.secrets/tree/1.1.0) (2024-01-15)
 
 [Full Changelog](https://github.com/codenamephp/deployer.secrets/compare/1.0.0...1.1.0)
